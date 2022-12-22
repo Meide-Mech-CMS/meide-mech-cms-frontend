@@ -1,7 +1,707 @@
 <template>
   <ion-page>
     <ion-content>
-      
+      <nav
+        class="navbar navbar-light justify-content-center montserrat"
+        style="
+          background: url('assets/images/batik.svg');
+          background-color: #e31528;
+        "
+      >
+        <a
+          href="home"
+          class="navbar-brand d-none d-xl-block"
+          style="background-color: white; margin-right: 600px"
+        >
+          <img src="assets/images/logo-new.png" />
+        </a>
+        <div class="row mt-2">
+          <img
+            src="assets/figma_assets/certified.svg"
+            alt=""
+            style="width: 26px; margin: 0px 16px 14px"
+          />
+          <ul class="navbar-text text-white mr-4">
+            <li style="font-size: 18px; font-weight: 500">Certified Company</li>
+            <li style="font-weight: 300">ISO 9001:2005</li>
+          </ul>
+          <div class="vertical-line"></div>
+          <img
+            src="assets/figma_assets/trophy.svg"
+            alt=""
+            style="width: 26px; margin: 0px 16px 14px"
+          />
+          <ul class="navbar-text text-white">
+            <li style="font-size: 18px; font-weight: 500">Best Product</li>
+            <li style="font-weight: 300">Service Provider</li>
+          </ul>
+        </div>
+      </nav>
+
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light py-3 montserrat"
+        style="font-size: 14px; font-weight: 600"
+      >
+        <a class="navbar-brand d-md-inline d-lg-none" href="#">
+          <img src="assets/images/logo-new.png" style="width: 50px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav" style="margin-right: 800px">
+            <li class="nav-item active">
+              <div class="dropdown">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="#"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                  >HOME</a
+                >
+                <div class="dropdown-menu dropdown-menu-center">
+                  <a class="dropdown-item" href="#">HOME 1</a>
+                  <a class="dropdown-item" href="#">HOME 2</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-nowrap" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">PRODUCT</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-nowrap" href="$">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <ion-grid>
+        <ion-row>
+          <swiper style="height: 650px">
+            <swiper-slide>
+              <div class="container-fluid p-0">
+                <div class="background1">
+                  <div
+                    class="container text-white text-left carousel-text montserrat"
+                  >
+                    <span style="font-size: 48px; font-weight: bold"
+                      >GROOVED FITTINGS</span
+                    ><br /><br /><br />
+                    <span style="font-size: 18px"
+                      >Excellent quality, the first choice for global
+                      customers.</span
+                    ><br /><br />
+                    <a
+                      href="#"
+                      class="theme-btn btn-style-one"
+                      style="
+                        transition: none 0s ease 0s;
+                        text-align: inherit;
+                        line-height: 24px;
+                        border-width: 2px;
+                        margin: 0px;
+                        padding: 13px 48px;
+                        letter-spacing: 0px;
+                        font-weight: 500;
+                        font-size: 16px;
+                      "
+                      >LEARN MORE</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="container-fluid p-0">
+                <div class="background2">
+                  <div
+                    class="container text-white text-left carousel-text montserrat"
+                  >
+                    <span style="font-size: 48px; font-weight: bold"
+                      >VALVES FOR FIRE PROTECTION</span
+                    ><br /><br /><br />
+                    <span style="font-size: 18px"
+                      >One stop supplier for fire protection valve
+                      products.</span
+                    ><br /><br />
+                    <a
+                      href="#"
+                      class="theme-btn btn-style-one"
+                      style="
+                        transition: none 0s ease 0s;
+                        text-align: inherit;
+                        line-height: 24px;
+                        border-width: 2px;
+                        margin: 0px;
+                        padding: 13px 48px;
+                        letter-spacing: 0px;
+                        font-weight: 500;
+                        font-size: 16px;
+                      "
+                      >LEARN MORE</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="container-fluid p-0">
+                <div class="background3">
+                  <div
+                    class="container text-white text-left carousel-text montserrat"
+                  >
+                    <span style="font-size: 48px; font-weight: bold"
+                      >VALVES FOR WATER WORKS</span
+                    ><br /><br /><br />
+                    <span style="font-size: 18px"
+                      >All in house production. Reliable quality
+                      assurance.</span
+                    ><br /><br />
+                    <a
+                      href="#"
+                      class="theme-btn btn-style-one"
+                      style="
+                        transition: none 0s ease 0s;
+                        text-align: inherit;
+                        line-height: 24px;
+                        border-width: 2px;
+                        margin: 0px;
+                        padding: 13px 48px;
+                        letter-spacing: 0px;
+                        font-weight: 500;
+                        font-size: 16px;
+                      "
+                      >LEARN MORE</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper>
+        </ion-row>
+      </ion-grid>
+      <!-- Categories -->
+      <section class="product-section-list" id="product-list">
+        <div class="row clearfix bgbg" style="margin: 0">
+          <div
+            class="col-sm-12 col-md-12 col-lg-12"
+            style="
+              padding: 0px;
+              background-color: #e31528 !important;
+              background: url('assets/images/batik.svg');
+            "
+          >
+            <div
+              class="container"
+              style="background-color: #fff; padding: 10px"
+            >
+              <div class="row clearfix" style="padding: 20px">
+                <!--Sidebar Side-->
+                <div class="sidebar-side col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                  <aside class="sidebar default-sidebar">
+                    <!--Blog Category Widget-->
+                    <div class="sidebar-widget sidebar-blog-category">
+                      <div class="sidebar-title">
+                        <h2>Categories</h2>
+                      </div>
+                      <button class="accordion">VALVE</button>
+                      <button class="accordion">PRESS FITTINGS</button>
+                      <button class="accordion">CASTINGS</button>
+                      <button class="accordion">CASTINGS</button>
+                      <button class="accordion">CAST PIG IRON</button>
+                      <button class="accordion">GROUT SLEEVE</button>
+                    </div>
+                  </aside>
+                </div>
+
+                <!--Content Side-->
+                <div
+                  class="content-side col-lg-9 col-md-8 col-sm-12 col-xs-12"
+                  style="padding: 0"
+                >
+                  <div class="search-box">
+                    <div class="search-box-product">
+                      <form
+                        method="post"
+                        action="https://danslacuisinededede.com/brixals/email.php"
+                      >
+                        <div class="form-group">
+                          <input
+                            type="search"
+                            name="search-field-product"
+                            value=""
+                            placeholder="Search..."
+                            required
+                          />
+                          <button type="submit">
+                            <span class="icon fa fa-search" aria-hidden="true">
+                            </span>
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-10 col-md-10 col-sm-10 col-xs-10">
+                        <div class="breadcrumb-list-product">
+                          Menampilkan 1 - 10 barang dari total 20 untuk "VALVE /
+                          Alarm Valve"
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="our-product">
+                    <!-- Backdrop -->
+                    <div class="backdrop"></div>
+                    <!-- [END] - Backdrop -->
+                    <div class="row clearfix our-product-row-item">
+                      <!--Shop Item-->
+                      <div
+                        class="product-item col-lg-4 col-md-6 col-sm-6 col-xs-12"
+                      >
+                        <div class="inner-box imgZoom">
+                          <a
+                            href="javascript:void(0);"
+                            onclick="popupDetailProduct();"
+                          >
+                            <div class="image">
+                              <img src="/assets/images/example-1.png" alt="" />
+                              <div class="tag-outer">
+                                <div class="product-tag">New</div>
+                              </div>
+                            </div>
+                            <div class="lower-content">
+                              <div class="clearfix_">
+                                <div class="pull-left">
+                                  <h5>
+                                    <a
+                                      href="javascript:void(0);"
+                                      onclick="popupDetailProduct();"
+                                      class="prod-title"
+                                      >GROOVED WET ALARM CHECK VALVE, FIG#
+                                      ZSFZ8X9</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!--Shop Item-->
+                      <div
+                        class="product-item col-lg-4 col-md-6 col-sm-6 col-xs-12"
+                      >
+                        <div class="inner-box imgZoom">
+                          <a
+                            href="javascript:void(0);"
+                            onclick="popupDetailProduct();"
+                          >
+                            <div class="image">
+                              <img src="/assets/images/example-2.png" alt="" />
+                              <!-- <div class="tag-outer">
+                                                        <div class="product-tag">New</div>
+                                                    </div> -->
+                            </div>
+                            <div class="lower-content">
+                              <div class="clearfix_">
+                                <div class="pull-left">
+                                  <h5>
+                                    <a
+                                      href="javascript:void(0);"
+                                      onclick="popupDetailProduct();"
+                                      class="prod-title"
+                                      >AWWA FLANGED RESILIENT OS&Y GATE
+                                      VALVE,FIG# XZ41X</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!--Shop Item-->
+                      <div
+                        class="product-item col-lg-4 col-md-6 col-sm-6 col-xs-12"
+                      >
+                        <div class="inner-box imgZoom">
+                          <a
+                            href="javascript:void(0);"
+                            onclick="popupDetailProduct();"
+                          >
+                            <div class="image">
+                              <img src="/assets/images/example-3.png" alt="" />
+                              <!-- <div class="tag-outer">
+                                                        <div class="product-tag">New</div>
+                                                    </div> -->
+                            </div>
+                            <div class="lower-content">
+                              <div class="clearfix_">
+                                <div class="pull-left">
+                                  <h5>
+                                    <a
+                                      href="javascript:void(0);"
+                                      onclick="popupDetailProduct();"
+                                      class="prod-title"
+                                      >AWWA FLANGED RESILIENT NRS GATE
+                                      VALVE,FIG# Z45X</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!--Shop Item-->
+                      <div
+                        class="product-item col-lg-4 col-md-6 col-sm-6 col-xs-12"
+                      >
+                        <div class="inner-box imgZoom">
+                          <a
+                            href="javascript:void(0);"
+                            onclick="popupDetailProduct();"
+                          >
+                            <div class="image">
+                              <img src="/assets/images/example-4.png" alt="" />
+                              <!-- <div class="tag-outer">
+                                                        <div class="product-tag">New</div>
+                                                    </div> -->
+                            </div>
+                            <div class="lower-content">
+                              <div class="clearfix_">
+                                <div class="pull-left">
+                                  <h5>
+                                    <a
+                                      href="javascript:void(0);"
+                                      onclick="popupDetailProduct();"
+                                      class="prod-title"
+                                      >ANSI WAFER BUTTERFLY VALVE WITH
+                                      HANDWHEEL, FIG# D71X4</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!--Shop Item-->
+                      <div
+                        class="product-item col-lg-4 col-md-6 col-sm-6 col-xs-12"
+                      >
+                        <div class="inner-box imgZoom">
+                          <a
+                            href="javascript:void(0);"
+                            onclick="popupDetailProduct();"
+                          >
+                            <div class="image">
+                              <img src="/assets/images/example-5.png" alt="" />
+                              <div class="tag-outer">
+                                <div class="product-tag">New</div>
+                              </div>
+                            </div>
+                            <div class="lower-content">
+                              <div class="clearfix_">
+                                <div class="pull-left">
+                                  <h5>
+                                    <a
+                                      href="javascript:void(0);"
+                                      onclick="popupDetailProduct();"
+                                      class="prod-title"
+                                      >EN FLANGED WET ALARM CHECK VALVE, FIG#
+                                      ZSFZ4X</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!--Shop Item-->
+                      <div
+                        class="product-item col-lg-4 col-md-6 col-sm-6 col-xs-12"
+                      >
+                        <div class="inner-box imgZoom">
+                          <a
+                            href="javascript:void(0);"
+                            onclick="popupDetailProduct();"
+                          >
+                            <div class="image">
+                              <img src="/assets/images/example-6.png" alt="" />
+                              <!-- <div class="tag-outer">
+                                                        <div class="product-tag">New</div>
+                                                    </div> -->
+                            </div>
+                            <div class="lower-content">
+                              <div class="clearfix_">
+                                <div class="pull-left">
+                                  <h5>
+                                    <a
+                                      href="javascript:void(0);"
+                                      onclick="popupDetailProduct();"
+                                      class="prod-title"
+                                      >ANSI WAFER BUTTERFLY VALVE FOR
+                                      WATERWORKS, FIG# D371X4</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!--Shop Item-->
+                      <div
+                        class="product-item col-lg-4 col-md-6 col-sm-6 col-xs-12"
+                      >
+                        <div class="inner-box imgZoom">
+                          <a
+                            href="javascript:void(0);"
+                            onclick="popupDetailProduct();"
+                          >
+                            <div class="image">
+                              <img src="/assets/images/example-7.png" alt="" />
+                              <!-- <div class="tag-outer">
+                                                        <div class="product-tag">New</div>
+                                                    </div> -->
+                            </div>
+                            <div class="lower-content">
+                              <div class="clearfix_">
+                                <div class="pull-left">
+                                  <h5>
+                                    <a
+                                      href="javascript:void(0);"
+                                      onclick="popupDetailProduct();"
+                                      class="prod-title"
+                                      >ANSI FLANGED SWING CHECK VALVE, FIG#
+                                      H44X2</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!--Shop Item-->
+                      <div
+                        class="product-item col-lg-4 col-md-6 col-sm-6 col-xs-12"
+                      >
+                        <div class="inner-box imgZoom">
+                          <a
+                            href="javascript:void(0);"
+                            onclick="popupDetailProduct();"
+                          >
+                            <div class="image">
+                              <img src="/assets/images/example-8.png" alt="" />
+                              <!-- <div class="tag-outer">
+                                                        <div class="product-tag">New</div>
+                                                    </div> -->
+                            </div>
+                            <div class="lower-content">
+                              <div class="clearfix_">
+                                <div class="pull-left">
+                                  <h5>
+                                    <a
+                                      href="javascript:void(0);"
+                                      onclick="popupDetailProduct();"
+                                      class="prod-title"
+                                      >BS FLANGED METAL SEATED GLOBE VALVE, FIG#
+                                      J41H</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!--Shop Item-->
+                      <div
+                        class="product-item col-lg-4 col-md-6 col-sm-6 col-xs-12"
+                      >
+                        <div class="inner-box imgZoom">
+                          <a
+                            href="javascript:void(0);"
+                            onclick="popupDetailProduct();"
+                          >
+                            <div class="image">
+                              <img src="/assets/images/example-9.png" alt="" />
+                              <!-- <div class="tag-outer">
+                                                        <div class="product-tag">New</div>
+                                                    </div> -->
+                            </div>
+                            <div class="lower-content">
+                              <div class="clearfix_">
+                                <div class="pull-left">
+                                  <h5>
+                                    <a
+                                      href="javascript:void(0);"
+                                      onclick="popupDetailProduct();"
+                                      class="prod-title"
+                                      >UNDERGROUND FIRE HYDRANT, FIG# SA1</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!--Shop Item-->
+                      <div
+                        class="product-item col-lg-4 col-md-6 col-sm-6 col-xs-12"
+                      >
+                        <div class="inner-box imgZoom">
+                          <a
+                            href="javascript:void(0);"
+                            onclick="popupDetailProduct();"
+                          >
+                            <div class="image">
+                              <img src="/assets/images/example-10.png" alt="" />
+                              <!-- <div class="tag-outer">
+                                                        <div class="product-tag">New</div>
+                                                    </div> -->
+                            </div>
+                            <div class="lower-content">
+                              <div class="clearfix_">
+                                <div class="pull-left">
+                                  <h5>
+                                    <a
+                                      href="javascript:void(0);"
+                                      onclick="popupDetailProduct();"
+                                      class="prod-title"
+                                      >BS FLANGED RESILIENT NRS GATE VALVE,FIG#
+                                      Z45X</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!--Shop Item-->
+                      <div
+                        class="product-item col-lg-4 col-md-6 col-sm-6 col-xs-12"
+                      >
+                        <div class="inner-box imgZoom">
+                          <a
+                            href="javascript:void(0);"
+                            onclick="popupDetailProduct();"
+                          >
+                            <div class="image">
+                              <img src="/assets/images/example-11.png" alt="" />
+                              <!-- <div class="tag-outer">
+                                                        <div class="product-tag">New</div>
+                                                    </div> -->
+                            </div>
+                            <div class="lower-content">
+                              <div class="clearfix_">
+                                <div class="pull-left">
+                                  <h5>
+                                    <a
+                                      href="javascript:void(0);"
+                                      onclick="popupDetailProduct();"
+                                      class="prod-title"
+                                      >BS FLANGED RESILIENT OS&Y GATE VALVE,FIG#
+                                      XZ41X</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+
+                      <!--Shop Item-->
+                      <div
+                        class="product-item col-lg-4 col-md-6 col-sm-6 col-xs-12"
+                      >
+                        <div class="inner-box imgZoom">
+                          <a
+                            href="javascript:void(0);"
+                            onclick="popupDetailProduct();"
+                          >
+                            <div class="image">
+                              <img src="/assets/images/example-12.png" alt="" />
+                              <!-- <div class="tag-outer">
+                                                        <div class="product-tag">New</div>
+                                                    </div> -->
+                            </div>
+                            <div class="lower-content">
+                              <div class="clearfix_">
+                                <div class="pull-left">
+                                  <h5>
+                                    <a
+                                      href="javascript:void(0);"
+                                      onclick="popupDetailProduct();"
+                                      class="prod-title"
+                                      >DIN FLANGED RESILIENT NRS GATE VALVE,FIG#
+                                      Z45X</a
+                                    >
+                                  </h5>
+                                </div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="button btn-load-more-product-list"
+                      style="text-align: center"
+                    >
+                      <button
+                        type="button"
+                        class="theme-btn btn-style-load-more-product add-to-cart"
+                      >
+                        Load More
+                      </button>
+                      <div
+                        class="content-loader"
+                        style="text-align: center"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End Product List Section-->
+
+      <!-- Company Profile -->
       <section class="about-section" id="about-us">
         <div class="auto-container px-3 px-md-5 px-lg-3">
           <div class="row clearfix">
@@ -21,17 +721,24 @@
                   <div class="text">
                     <h3>USER-CENTERED,QUALITY-ORIENTED</h3>
                     <p>
-                      The world's leading manufacturer and solution specialist for fluid transfer products.
-                      Founded in 1961, Meide Group has developed into a modern and diversified multinational enterprise
-                      group focusing on fluid transportation products and services. The sales are located in more than
-                      130 countries and regions around the world, and the products and services have been successfully
-                      applied in water, fire, gas, HVAC, irrigation and other fields as well as in major landmark
-                      projects around the world, such as Burj Khalifa in Dubai and New World Trade Center in New
-                      York.Shanghai Tower, West-East Power Transmission UHV transmission lines, Beijing-Shanghai
-                      high-speed rail and municipal, medical, clean workshops, urban housing, etc.
+                      The world's leading manufacturer and solution specialist
+                      for fluid transfer products. Founded in 1961, Meide Group
+                      has developed into a modern and diversified multinational
+                      enterprise group focusing on fluid transportation products
+                      and services. The sales are located in more than 130
+                      countries and regions around the world, and the products
+                      and services have been successfully applied in water,
+                      fire, gas, HVAC, irrigation and other fields as well as in
+                      major landmark projects around the world, such as Burj
+                      Khalifa in Dubai and New World Trade Center in New
+                      York.Shanghai Tower, West-East Power Transmission UHV
+                      transmission lines, Beijing-Shanghai high-speed rail and
+                      municipal, medical, clean workshops, urban housing, etc.
                     </p>
                   </div>
-                  <a href="about.html" class="theme-btn btn-style-one">Read More</a>
+                  <a href="about.html" class="theme-btn btn-style-one"
+                    >Read More</a
+                  >
                 </div>
               </div>
             </div>
@@ -41,50 +748,82 @@
                 <div class="services-block-seven">
                   <div class="inner-box">
                     <div class="icon-box">
-                      <img src="/assets/figma_assets/fire.svg" alt="" style="height: 75px;">
+                      <img
+                        src="/assets/figma_assets/fire.svg"
+                        alt=""
+                        style="height: 75px"
+                      />
                     </div>
                     <h3><a href="services-single.html">Fire</a></h3>
-                    <div class="text">Reduce Instalation time and labor costs.</div>
+                    <div class="text">
+                      Reduce Instalation time and labor costs.
+                    </div>
                   </div>
                 </div>
                 <div class="services-block-seven">
                   <div class="inner-box">
                     <div class="icon-box">
-                      <img src="/assets/figma_assets/irrigation.svg" alt="" style="height: 75px;">
+                      <img
+                        src="/assets/figma_assets/irrigation.svg"
+                        alt=""
+                        style="height: 75px"
+                      />
                     </div>
                     <h3><a href="services-single.html">Irrigation</a></h3>
-                    <div class="text">Saving water and power resource, reduce the failure rate and improve the
-                      efficiency of the.</div>
+                    <div class="text">
+                      Saving water and power resource, reduce the failure rate
+                      and improve the efficiency of the.
+                    </div>
                   </div>
                 </div>
                 <div class="services-block-seven">
                   <div class="inner-box">
                     <div class="icon-box">
-                      <img src="/assets/figma_assets/water_treatment.svg" alt="" style="height: 75px;">
+                      <img
+                        src="/assets/figma_assets/water_treatment.svg"
+                        alt=""
+                        style="height: 75px"
+                      />
                     </div>
                     <h3><a href="services-single.html">Water Treatment</a></h3>
-                    <div class="text">Explain to you how all Water treatment.</div>
+                    <div class="text">
+                      Explain to you how all Water treatment.
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <!--Choose Section-->
-          <div class="choose-section" style="margin-top: 35px;">
+          <div class="choose-section" style="margin-top: 35px">
             <div class="row clearfix">
               <!--Image Column-->
               <div class="image-column col-md-6 col-sm-6 col-xs-12">
                 <h2>Why Choose Us</h2>
-                <div class="text">Don't spend time and money on beautiful landscaping if you have not taken water and
-                  irrigation issues.</div>
+                <div class="text">
+                  Don't spend time and money on beautiful landscaping if you
+                  have not taken water and irrigation issues.
+                </div>
                 <div class="row clearfix">
                   <div class="list-column col-md-12">
                     <ul class="list-style-four">
-                      <li>Complete specifications, distributed to more than 130 countries and regions </li>
-                      <li>Excellent quality, the first choice for global customers </li>
-                      <li>The pioneer of double compression technology in China</li>
-                      <li>All in house production. Reliable quality assurance</li>
-                      <li>Intelligent manufacturing of Meide. High quality benefits power grid</li>
+                      <li>
+                        Complete specifications, distributed to more than 130
+                        countries and regions
+                      </li>
+                      <li>
+                        Excellent quality, the first choice for global customers
+                      </li>
+                      <li>
+                        The pioneer of double compression technology in China
+                      </li>
+                      <li>
+                        All in house production. Reliable quality assurance
+                      </li>
+                      <li>
+                        Intelligent manufacturing of Meide. High quality
+                        benefits power grid
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -95,9 +834,12 @@
                 <div class="video-image-box">
                   <figure class="image">
                     <img src="/assets/images/page-title-bg.jpg" alt="" />
-                    <div class="overlay-link"><a
+                    <div class="overlay-link">
+                      <a
                         href="http://www.meide-casting.com/en/upload/media/2020/03/03/ff7037b1847846abb78813e724254433.mp4"
-                        class="overlay-link lightbox-image video-fancybox"><span class="icon fa fa-play"></span></a>
+                        class="overlay-link lightbox-image video-fancybox"
+                        ><span class="icon fa fa-play"></span
+                      ></a>
                     </div>
                   </figure>
                 </div>
@@ -109,16 +851,27 @@
       </section>
       <!--End About Section-->
 
-
       <!--Call To Action-->
-      <section class="call-to-action-section" style="background-image:url('/assets/images/batik.svg');">
-        <div class="auto-container px-3 px-md-5 px-lg-3 ">
+      <section
+        class="call-to-action-section"
+        style="background-image: url('/assets/images/batik.svg')"
+      >
+        <div class="auto-container px-3 px-md-5 px-lg-3">
           <div class="row clearfix">
-            <div class="column text-center text-md-left col-md-9 col-sm-12 col-xs-12">
-              <div class="text">Reduce on-site operations and labor costs, Saving water and power resources. </div>
+            <div
+              class="column text-center text-md-left col-md-9 col-sm-12 col-xs-12"
+            >
+              <div class="text">
+                Reduce on-site operations and labor costs, Saving water and
+                power resources.
+              </div>
             </div>
-            <div class="btn-column text-center mt-4 mt-md-0 col-md-3 col-sm-12 col-xs-12">
-              <a href="contact.html" class="theme-btn btn-style-two">Contact us Today</a>
+            <div
+              class="btn-column text-center mt-4 mt-md-0 col-md-3 col-sm-12 col-xs-12"
+            >
+              <a href="contact.html" class="theme-btn btn-style-two"
+                >Contact us Today</a
+              >
             </div>
           </div>
         </div>
@@ -128,33 +881,54 @@
       <!--Clients Section-->
       <section class="clients-section-two grey-bg">
         <div class="auto-container px-3 px-md-5 px-lg-3">
-          <h2>We work with our partners to provide project perfection,<span class="theme_color"> join with our
-              parnership.</span></h2>
+          <h2>
+            We work with our partners to provide project perfection,<span
+              class="theme_color"
+            >
+              join with our parnership.</span
+            >
+          </h2>
           <!--Sponsors Carousel-->
           <ul class="sponsors-carousel owl-carousel owl-theme">
             <li class="slide-item">
-              <figure class="image-box"><a href="#"><img src="/assets/images/6.png" alt=""></a></figure>
+              <figure class="image-box">
+                <a href="#"><img src="/assets/images/6.png" alt="" /></a>
+              </figure>
             </li>
             <li class="slide-item">
-              <figure class="image-box"><a href="#"><img src="/assets/images/7.png" alt=""></a></figure>
+              <figure class="image-box">
+                <a href="#"><img src="/assets/images/7.png" alt="" /></a>
+              </figure>
             </li>
             <li class="slide-item">
-              <figure class="image-box"><a href="#"><img src="/assets/images/8.png" alt=""></a></figure>
+              <figure class="image-box">
+                <a href="#"><img src="/assets/images/8.png" alt="" /></a>
+              </figure>
             </li>
             <li class="slide-item">
-              <figure class="image-box"><a href="#"><img src="/assets/images/9.png" alt=""></a></figure>
+              <figure class="image-box">
+                <a href="#"><img src="/assets/images/9.png" alt="" /></a>
+              </figure>
             </li>
             <li class="slide-item">
-              <figure class="image-box"><a href="#"><img src="/assets/images/10.png" alt=""></a></figure>
+              <figure class="image-box">
+                <a href="#"><img src="/assets/images/10.png" alt="" /></a>
+              </figure>
             </li>
             <li class="slide-item">
-              <figure class="image-box"><a href="#"><img src="/assets/images/6.png" alt=""></a></figure>
+              <figure class="image-box">
+                <a href="#"><img src="/assets/images/6.png" alt="" /></a>
+              </figure>
             </li>
             <li class="slide-item">
-              <figure class="image-box"><a href="#"><img src="/assets/images/7.png" alt=""></a></figure>
+              <figure class="image-box">
+                <a href="#"><img src="/assets/images/7.png" alt="" /></a>
+              </figure>
             </li>
             <li class="slide-item">
-              <figure class="image-box"><a href="#"><img src="/assets/images/8.png" alt=""></a></figure>
+              <figure class="image-box">
+                <a href="#"><img src="/assets/images/8.png" alt="" /></a>
+              </figure>
             </li>
           </ul>
         </div>
@@ -170,8 +944,11 @@
               <!--Sec Title-->
               <div class="sec-title">
                 <h2>Contact Details</h2>
-                <div class="text">If you have any questions about what we offer for consumers or for business, you can
-                  always email us or call us via the below details. We'll reply within 24 hours.</div>
+                <div class="text">
+                  If you have any questions about what we offer for consumers or
+                  for business, you can always email us or call us via the below
+                  details. We'll reply within 24 hours.
+                </div>
               </div>
 
               <div class="row clearfix">
@@ -179,16 +956,25 @@
                 <div class="info-block col-md-6 col-sm-6 col-xs-12">
                   <div class="info-inner">
                     <div class="icon-box">
-                      <img src="/assets/figma_assets/location_pin (1).svg" style="height: 30px;" alt="">
+                      <img
+                        src="/assets/figma_assets/location_pin (1).svg"
+                        style="height: 30px"
+                        alt=""
+                      />
                     </div>
                     <h3>Address :</h3>
-                    <div class="text">244, Meidemect, Indonesia <br>City, Jakarta </div>
+                    <div class="text">
+                      244, Meidemect, Indonesia <br />City, Jakarta
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="inner-column col-md-12 col-lg-4 col-sm-12 col-xs-12">
-              <div class="container-form" style="border: 1px solid #eee;padding: 15px;">
+              <div
+                class="container-form"
+                style="border: 1px solid #eee; padding: 15px"
+              >
                 <!--Sec Title-->
                 <div class="sec-title centered">
                   <h2>Request for Quote</h2>
@@ -199,17 +985,37 @@
                   <!--Comment Form-->
                   <form method="post" action="#">
                     <div class="form-group">
-                      <input type="text" name="name" placeholder="Your Name" required>
+                      <input
+                        type="text"
+                        name="name"
+                        placeholder="Your Name"
+                        required
+                      />
                     </div>
                     <div class="form-group">
-                      <input type="email" name="email" placeholder="Email Address" required>
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="Email Address"
+                        required
+                      />
                     </div>
                     <div class="form-group">
-                      <textarea name="subject" rows="4" placeholder="Subject"></textarea>
+                      <textarea
+                        name="subject"
+                        rows="4"
+                        placeholder="Subject"
+                      ></textarea>
                     </div>
                     <div class="form-group">
-                      <button class="theme-btn btn-style-one" type="submit" name="submit-form"
-                        style="width: 100%;">Send</button>
+                      <button
+                        class="theme-btn btn-style-one"
+                        type="submit"
+                        name="submit-form"
+                        style="width: 100%"
+                      >
+                        Send
+                      </button>
                     </div>
                   </form>
                 </div>
@@ -367,31 +1173,94 @@
 </template>
 
 <script lang="ts">
-import {
-  IonContent,
-  // IonHeader, 
-  IonPage,
-  // IonTitle, 
-  // IonToolbar 
-}
-  from '@ionic/vue';
-import { defineComponent } from 'vue';
+import { defineComponent } from "vue";
+import { Swiper, SwiperSlide } from "swiper/vue";
+import { IonContent, IonPage } from "@ionic/vue";
+
+import "swiper/css";
+import "swiper/css/bundle";
+import "@ionic/vue/css/ionic-swiper.css";
 
 export default defineComponent({
-  name: 'CompanyProfile',
-  components: {
-    IonContent,
-    // IonHeader,
-    IonPage,
-    // IonTitle,
-    // IonToolbar
-  }
+  name: "CarouselSection",
+  components: { Swiper, SwiperSlide, IonContent, IonPage },
 });
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Raleway:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
 
+.carousel-text {
+  transform: translate(-300px, 250px);
+  padding-right: 0px;
+  width: 550px;
+}
+
+.background1 {
+  background-image: url(../../public/assets/images/image-new-1.jpg);
+  background-size: cover;
+  height: 800px;
+}
+
+.background2 {
+  background-image: url(../../public/assets/images/image-new-2.jpg);
+  background-size: cover;
+  height: 800px;
+}
+
+.background3 {
+  background-image: url(../../public/assets/images/image-new-3.jpg);
+  background-size: cover;
+  height: 800px;
+}
+
+.montserrat {
+  font-family: Montserrat, sans-serif;
+}
+
+.vertical-line {
+  border-left: 1px solid white;
+  height: 45px;
+  margin: 14px;
+}
+
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none;
+}
 
 html {
   scroll-behavior: smooth;
@@ -408,10 +1277,6 @@ body {
   background-position: center top;
   -webkit-font-smoothing: antialiased;
   font-family: "Raleway", sans-serif;
-}
-
-.text {
-  font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -442,7 +1307,790 @@ h6 {
   margin: 0px;
   background: none;
   line-height: 1.6em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+input,
+button,
+select,
+textarea {
+}
+
+p {
+  position: relative;
+  line-height: 1.8em;
+}
+
+.mar-bottom-30 {
+  margin-bottom: 30px !important;
+}
+
+.mar-top-80 {
+  margin-top: 80px !important;
+}
+
+.mar-top-50 {
+  margin-top: 50px !important;
+}
+
+.strike-through {
+  text-decoration: line-through;
+}
+
+.auto-container {
+  position: static;
+  max-width: 1200px;
+  /*padding:0px 15px;*/
+  padding: 0px 0px;
+  margin: 0 auto;
+}
+
+.page-wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 300px;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.theme-btn {
+  display: inline-block;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.grey-bg {
+  background-color: #f7f7f7 !important;
+}
+
+.sidebar-page-container {
+  position: relative;
+  padding: 80px 0px 40px;
+}
+
+.sidebar-page-container .content-side,
+.sidebar-page-container .sidebar-side {
+  margin-bottom: 40px;
+}
+
+.sidebar-widget {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.bgbg {
+  background-color: #e31628;
+}
+
+.form-group {
+  font-family: "Raleway", sans-serif;
+  color: #808080;
+}
+.sidebar .search-box .form-group {
+  position: relative;
+  margin: 0px;
+}
+
+.sidebar .search-box .form-group input[type="text"],
+.sidebar .search-box .form-group input[type="search"] {
+  position: relative;
+  line-height: 28px;
+  padding: 10px 50px 10px 20px;
+  border: 1px solid #eeeeee;
+  background: none;
+  display: block;
+  font-size: 16px;
+  width: 100%;
+  height: 50px;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+
+.sidebar .search-box .form-group button {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 50px;
+  width: 50px;
+  display: block;
+  font-size: 16px;
+  color: #222222;
+  line-height: 100%;
+  background: #f4f4f4;
+  font-weight: normal;
+}
+
+/*Sidebar Title*/
+
+.sidebar-title {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.sidebar-title h2 {
+  font-size: 22px;
+  color: #222222;
+  font-weight: 400;
+  line-height: 1.2em;
+  padding-bottom: 15px;
+  text-transform: capitalize;
+  border-bottom: 1px solid rgba(238, 238, 238, 0.5);
+}
+
+.sidebar-title h2:after {
+  position: absolute;
+  content: "";
+  left: 0px;
+  bottom: -1px;
+  width: 45px;
+  height: 1px;
+  background-color: #e31528;
+}
+
+.blog-cat {
+  position: relative;
+}
+
+.blog-cat li:hover {
+  transform: scale(1.1);
+}
+
+.blog-cat li {
+  position: relative;
+  margin-bottom: 15px;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+
+.blog-cat li a {
+  position: relative;
+  font-size: 15px;
+  font-weight: 400;
+  display: block;
+  padding-bottom: 15px;
+  color: #848484;
+  padding-left: 30px;
+  border-bottom: 1px solid #eeeeee;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  font-family: "Raleway", sans-serif;
+}
+
+.blog-cat li a:before {
+  position: absolute;
+  content: "\f114";
+  left: 0px;
+  top: 0px;
+  font-family: "FontAwesome";
+}
+
+.blog-cat li a:after {
+  position: absolute;
+  content: "\f105";
+  right: 0px;
+  top: 0px;
+  font-family: "FontAwesome";
+}
+
+.blog-cat li a:hover {
+  color: #e31528;
+}
+
+.product-item {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.product-item .inner-box {
+  position: relative;
+  outline: 15px solid #ffffff;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.product-item .inner-box:before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
+  top: -15px;
+  opacity: 0;
+  z-index: 10;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(204, 204, 204, 0.6);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(204, 204, 204, 0.6);
+  box-shadow: 0px 0px 5px 0px rgba(204, 204, 204, 0.6);
+}
+
+.product-item .inner-box:hover::before {
+  opacity: 1;
+}
+
+.product-item .inner-box:hover .image .overlay-box {
+  opacity: 1;
+}
+
+.product-item .inner-box .image {
+  position: relative;
+  z-index: 11;
+  text-align: center;
+  background-color: #fff;
+}
+
+.product-item .inner-box .image .overlay-box {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  text-align: center;
+  background-color: rgb(227 21 40 / 0.85);
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.product-item .inner-box .image .overlay-box .cart-btn {
+  position: relative;
+  top: 46%;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 37px;
+  display: inline-block;
+  margin-top: -25px;
+  border: 1px solid #ffffff;
+}
+
+.product-item .inner-box .image .tag-outer {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  overflow: hidden;
+}
+
+.product-item .inner-box .image .tag-outer .product-tag {
+  position: relative;
+  width: 96px;
+  color: #ffffff;
+  left: -36px;
+  top: -24px;
+  height: 64px;
+  background-color: #e31528;
+  font-weight: 400;
+  line-height: 98px;
+  text-align: center;
+  font-size: 16px;
+  text-transform: capitalize;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  z-index: 9;
+}
+
+.product-item .inner-box .image img {
+  max-width: 100%;
+  padding: 20px 0px;
+  display: inline-block;
+}
+
+.product-item .inner-box .lower-content {
+  position: relative;
+  z-index: 11;
+  padding: 20px 0px 0px;
+}
+
+.product-item .inner-box .lower-content h5 {
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.product-item .inner-box .lower-content h5 a {
+  color: #222222;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.product-item .inner-box .lower-content h5 a:hover {
+  color: #e31528;
+}
+
+.product-item .inner-box:hover .prod-title {
+  color: #e31528;
+}
+
+.product-item .inner-box .lower-content .price {
+  position: relative;
+  color: #e31528;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.product-item .inner-box .lower-content .rating .fa {
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+  color: #e31528;
+}
+
+.imgZoom {
+  overflow: hidden;
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.imgZoom img {
+  -moz-transition: all 0.8s ease 0s;
+  -ms-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  -webkit-transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s;
+}
+
+.imgZoom:hover img {
+  -moz-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+
+.blog-cat li:hover {
+  transform: scale(1.1);
+}
+
+.our-product {
+  height: 1570px;
+  overflow-x: hidden;
+}
+
+.our-product::-webkit-scrollbar {
+  width: 5px;
+}
+
+.our-product::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 25px;
+}
+
+.our-product::-webkit-scrollbar-thumb:hover {
+  background: #ababab;
+}
+
+.search-box-product input[type="text"],
+.search-box-product input[type="search"] {
+  position: relative;
+  line-height: 23px;
+  padding: 10px 50px 10px 20px;
+  border: 1px solid #eeeeee;
+  background: none;
+  display: block;
+  font-size: 16px;
+  width: 100%;
+  height: 45px;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+
+input[name="search-field-product"]:valid {
+  border-radius: 15px;
+}
+
+.search-box-product button[type="submit"] {
+  background-color: #e31528;
+  color: #fff;
+}
+
+.search-box .form-group button {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 45px;
+  width: 60px;
+  display: block;
+  font-size: 16px;
+  color: #8c8c8c;
+  line-height: 100%;
+  font-weight: normal;
+  background: none;
+}
+
+.product-item {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.product-item .inner-box {
+  position: relative;
+  outline: 15px solid #ffffff;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.product-item .inner-box:before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
+  top: -15px;
+  opacity: 0;
+  z-index: 10;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(204, 204, 204, 0.6);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(204, 204, 204, 0.6);
+  box-shadow: 0px 0px 5px 0px rgba(204, 204, 204, 0.6);
+}
+
+.product-item .inner-box:hover::before {
+  opacity: 1;
+}
+
+.product-item .inner-box:hover .image .overlay-box {
+  opacity: 1;
+}
+
+.product-item .inner-box .image {
+  position: relative;
+  z-index: 11;
+  text-align: center;
+  background-color: #fff;
+}
+
+.product-item .inner-box .image .overlay-box {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  text-align: center;
+  background-color: rgb(227 21 40 / 0.85);
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.product-item .inner-box .image .overlay-box .cart-btn {
+  position: relative;
+  top: 46%;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 37px;
+  display: inline-block;
+  margin-top: -25px;
+  border: 1px solid #ffffff;
+}
+
+.product-item .inner-box .image .tag-outer {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  overflow: hidden;
+}
+
+.product-item .inner-box .image .tag-outer .product-tag {
+  position: relative;
+  width: 96px;
+  color: #ffffff;
+  left: -36px;
+  top: -24px;
+  height: 64px;
+  background-color: #e31528;
+  font-weight: 400;
+  line-height: 98px;
+  text-align: center;
+  font-size: 16px;
+  text-transform: capitalize;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  z-index: 9;
+}
+
+.product-item .inner-box .image img {
+  max-width: 100%;
+  padding: 20px 0px;
+  display: inline-block;
+}
+
+.product-item .inner-box .lower-content {
+  position: relative;
+  z-index: 11;
+  padding: 20px 0px 0px;
+}
+
+.product-item .inner-box .lower-content h5 {
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.product-item .inner-box .lower-content h5 a {
+  color: #222222;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.product-item .inner-box .lower-content h5 a:hover {
+  color: #e31528;
+}
+
+.product-item .inner-box:hover .prod-title {
+  color: #e31528;
+}
+
+.product-item .inner-box .lower-content .price {
+  position: relative;
+  color: #e31528;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.product-item .inner-box .lower-content .rating .fa {
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+  color: #e31528;
+}
+
+.search-box-product button[type="submit"]:hover span {
+  transform: scale(1.2);
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+
+.breadcrumb-list-product {
+  padding: 0px 10px 5px;
+  font-family: "Raleway", sans-serif;
+  color: #808080;
+}
+
+.content-loader {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90px;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+}
+
+.backdrop {
+  background-color: #0000006b !important;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: -webkit-fill-available;
+  height: inherit;
+  filter: brightness(100.5);
+  display: none;
+}
+
+.option-box:hover {
+  transform: scale(1.1);
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+
+.category-product {
+  position: relative;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.bread-crumb-product-list {
+  padding: 18px 15px 17px !important;
+}
+
+#box {
+  z-index: 100;
+}
+
+#box:hover {
+  /*-webkit-animation: scaleme 1s;*/
+}
+
+@-webkit-keyframes scaleme {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(3);
+    opacity: 0;
+    display: none;
+  }
+}
+
+#box-sub {
+  z-index: 100;
+}
+
+.gallery-item-two .inner-box .content h3 a:hover {
+  position: relative;
+  color: #e31528;
+  transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.product-page {
+  display: flex;
+}
+
+.img-display-zoom {
+  flex-grow: 1;
+  max-width: 500px;
+}
+
+.zoom {
+  display: inline-block;
+  height: 100%;
+}
+
+.btn-style-load-more-product {
+  position: relative;
+  padding: 13px 48px;
+  line-height: 24px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #e31528;
+  border: 2px solid #e31528;
+  text-transform: capitalize;
+  font-family: "Raleway", sans-serif;
+}
+
+.btn-style-load-more-product:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Raleway:wght@400;500&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 15px;
+  color: #777777;
+  line-height: 1.8em;
+  font-weight: 400;
+  background: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway", sans-serif;
+}
+
+.text {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #e31528;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+a:hover,
+a:focus,
+a:visited {
+  text-decoration: none;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  font-weight: normal;
+  margin: 0px;
+  background: none;
+  line-height: 1.6em;
+  font-family: "Montserrat", sans-serif;
 }
 
 p {
@@ -513,7 +2161,7 @@ li {
   background-color: #e31528;
   border: 2px solid #e31528;
   text-transform: capitalize;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .btn-style-one:hover {
@@ -531,8 +2179,8 @@ li {
   font-size: 16px;
   font-weight: 500;
   text-transform: capitalize;
-  font-family: 'Raleway', sans-serif;
-  border: 2px solid rgba(255, 255, 255, 0.50);
+  font-family: "Raleway", sans-serif;
+  border: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 .btn-style-two:hover {
@@ -552,7 +2200,7 @@ li {
   font-weight: 500;
   border: 2px solid #dddddd;
   text-transform: capitalize;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .btn-style-three:hover {
@@ -562,18 +2210,18 @@ li {
 }
 
 .owl-nav {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .owl-nav div {
-    background: #e31528;
-    color: #fff;
-    padding: 15px;
-    border-radius: 31px;
-    width: 58px;
-    text-align: center;
-    font-size: 30px;
+  background: #e31528;
+  color: #fff;
+  padding: 15px;
+  border-radius: 31px;
+  width: 58px;
+  text-align: center;
+  font-size: 30px;
 }
 
 /*Btn Style Four*/
@@ -587,7 +2235,7 @@ li {
   font-weight: 500;
   border: 1px solid #eeeeee;
   text-transform: capitalize;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .btn-style-four:hover {
@@ -789,7 +2437,12 @@ img {
   font-size: 18px;
 }
 
-.testimonial-block-two .inner-box .lower-box .author-info .author-inner .author-location {
+.testimonial-block-two
+  .inner-box
+  .lower-box
+  .author-info
+  .author-inner
+  .author-location {
   position: relative;
   color: #e31528;
   font-size: 16px;
@@ -810,7 +2463,7 @@ img {
 
 .testimonial-block-two .inner-box:after {
   position: absolute;
-  content: '';
+  content: "";
   left: 30px;
   bottom: -25px;
   border-top: 25px solid #ffffff;
@@ -1085,7 +2738,7 @@ img {
 
 .clients-section-two .image-box:after {
   position: absolute;
-  content: '';
+  content: "";
   left: 4px;
   right: 4px;
   top: 4px;
@@ -1096,7 +2749,6 @@ img {
   -ms-transition: all 300ms ease;
   -o-transition: all 300ms ease;
 }
-
 
 .clients-section-two .image-box img {
   position: relative;
@@ -1141,7 +2793,7 @@ img {
 
 .call-to-action-section-two .inner-box:before {
   position: absolute;
-  content: '';
+  content: "";
   left: 0px;
   top: 0px;
   width: 100%;
@@ -1265,7 +2917,7 @@ img {
   display: block;
   font-size: 20px;
   color: #222222;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*** 
@@ -1283,7 +2935,7 @@ img {
 
 .services-section-two:before {
   position: absolute;
-  content: '';
+  content: "";
   left: 0px;
   top: -20px;
   width: 100%;
@@ -1402,7 +3054,7 @@ img {
   width: 100%;
   display: block;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.80);
+  background-color: rgba(0, 0, 0, 0.8);
   -webkit-transition: all 700ms ease;
   -ms-transition: all 700ms ease;
   -o-transition: all 700ms ease;
@@ -1440,7 +3092,11 @@ img {
   -o-transition: all 300ms ease;
 }
 
-.gallery-item-three .inner-box .overlay-box .option-box .image-link.lightbox-image {
+.gallery-item-three
+  .inner-box
+  .overlay-box
+  .option-box
+  .image-link.lightbox-image {
   position: relative;
   left: -5px;
 }
@@ -1522,7 +3178,7 @@ img {
   width: 100%;
   display: block;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.80);
+  background-color: rgba(0, 0, 0, 0.8);
   -webkit-transition: all 700ms ease;
   -ms-transition: all 700ms ease;
   -o-transition: all 700ms ease;
@@ -1557,7 +3213,11 @@ img {
   -o-transition: all 300ms ease;
 }
 
-.gallery-item-four .inner-box .overlay-box .option-box .image-link.lightbox-image {
+.gallery-item-four
+  .inner-box
+  .overlay-box
+  .option-box
+  .image-link.lightbox-image {
   position: relative;
   left: -5px;
 }
@@ -1590,7 +3250,7 @@ img {
 
 .gallery-item-four .inner-box .overlay-box:before {
   position: absolute;
-  content: '';
+  content: "";
   border: 1px solid #747474;
   left: 10px;
   top: 10px;
@@ -1644,7 +3304,7 @@ img {
   width: 100%;
   display: block;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.80);
+  background-color: rgba(0, 0, 0, 0.8);
   -webkit-transition: all 700ms ease;
   -ms-transition: all 700ms ease;
   -o-transition: all 700ms ease;
@@ -1679,7 +3339,11 @@ img {
   -o-transition: all 300ms ease;
 }
 
-.gallery-item-six .inner-box .overlay-box .option-box .image-link.lightbox-image {
+.gallery-item-six
+  .inner-box
+  .overlay-box
+  .option-box
+  .image-link.lightbox-image {
   position: relative;
   left: -5px;
 }
@@ -1699,545 +3363,545 @@ img {
   font-weight: 400;
 }
 
-.project-section{
-	position:relative;
-	padding:70px 0px 40px;
-	background-color: #333;
+.project-section {
+  position: relative;
+  padding: 70px 0px 40px;
+  background-color: #333;
 }
 
 .project-section.default-bg {
-	background: #fff;
+  background: #fff;
 }
 
-.project-section .sec-title.no-border h2{
-	border:none;
+.project-section .sec-title.no-border h2 {
+  border: none;
 }
 
-.project-section.fullwidth-galley{
-	padding-bottom:0px;
+.project-section.fullwidth-galley {
+  padding-bottom: 0px;
 }
 
-.project-section.fullwidth-galley .gallery-item-three{
-	float:left;
-	width:20%;
+.project-section.fullwidth-galley .gallery-item-three {
+  float: left;
+  width: 20%;
 }
 
-.project-section.fullwidth-galley .gallery-item-four{
-	float:left;
-	width:20%;
+.project-section.fullwidth-galley .gallery-item-four {
+  float: left;
+  width: 20%;
 }
 
-.project-section.fullwidth-galley .gallery-item-six{
-	float:left;
-	width:25%;
+.project-section.fullwidth-galley .gallery-item-six {
+  float: left;
+  width: 25%;
 }
 
-.project-section.fullwidth-project-two .sec-title h2{
-	border:none;
+.project-section.fullwidth-project-two .sec-title h2 {
+  border: none;
 }
 
-.project-section.fullwidth-project-two .gallery-item-three{
-	margin-bottom:30px;
+.project-section.fullwidth-project-two .gallery-item-three {
+  margin-bottom: 30px;
 }
 
-.project-tab{
-	position:relative;	
+.project-tab {
+  position: relative;
 }
 
 .project-tab .project-carousel .owl-nav,
-.project-tab .project-carousel .owl-dots{
-	display:none;
+.project-tab .project-carousel .owl-dots {
+  display: none;
 }
 
-.project-tab .tabs-header{
-	position:relative;
+.project-tab .tabs-header {
+  position: relative;
 }
 
-.project-tab .product-tab-btns{
-	position:relative;
-	text-align:right;
-	padding-top:20px;
+.project-tab .product-tab-btns {
+  position: relative;
+  text-align: right;
+  padding-top: 20px;
 }
 
-.project-tab .product-tab-btns .p-tab-btn{
-	position:relative;
-	line-height:24px;
-	padding:0px 0px;
-	cursor:pointer;
-	color:#96969f;
-	font-weight:400;
-	font-size:16px;
-	display:inline-block;
-	margin-bottom:10px;
-	margin-left:20px;
-	text-transform:uppercase;
-	transition:all 0.3s ease;
-	-moz-transition:all 0.3s ease;
-	-webkit-transition:all 0.3s ease;
-	-ms-transition:all 0.3s ease;
-	-o-transition:all 0.3s ease;
+.project-tab .product-tab-btns .p-tab-btn {
+  position: relative;
+  line-height: 24px;
+  padding: 0px 0px;
+  cursor: pointer;
+  color: #96969f;
+  font-weight: 400;
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
 .project-tab .product-tab-btns .p-tab-btn:hover,
-.project-tab .product-tab-btns .p-tab-btn.active-btn{
-	color:#e31528;
+.project-tab .product-tab-btns .p-tab-btn.active-btn {
+  color: #e31528;
 }
 
-.project-tab .p-tabs-content{
-	position:relative;
-	display:block;	
+.project-tab .p-tabs-content {
+  position: relative;
+  display: block;
 }
 
-.project-tab .p-tab{
-	position:absolute;
-	left:0px;
-	top:0px;
-	width:100%;
-	height:auto;
-	visibility:hidden;
-	-moz-transition:all 0.3s ease;
-	-webkit-transition:all 0.3s ease;
-	-ms-transition:all 0.3s ease;
-	-o-transition:all 0.3s ease;
-	background-color:#2a2a33;	
+.project-tab .p-tab {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  visibility: hidden;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  background-color: #2a2a33;
 }
 
-.project-tab .p-tab.active-tab{
-	position:relative;
-	visibility:visible;
-	z-index:5;
+.project-tab .p-tab.active-tab {
+  position: relative;
+  visibility: visible;
+  z-index: 5;
 }
 
 /*Gallery Item*/
 
-.gallery-item{
-	position:relative;
-	margin-bottom:40px;
+.gallery-item {
+  position: relative;
+  margin-bottom: 40px;
 }
 
-.gallery-item .inner-box{
-	position:relative;
-	width:100%;
-	overflow:hidden;
-	transition:all 0.9s ease;
-	-moz-transition:all 0.9s ease;
-	-webkit-transition:all 0.9s ease;
-	-ms-transition:all 0.9s ease;
-	-o-transition:all 0.9s ease;
+.gallery-item .inner-box {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -webkit-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
 }
 
-.project-tab .gallery-item .inner-box{
-	-webkit-transform:scaleX(0);
-	-ms-transform:scaleX(0);
-	-o-transform:scaleX(0);
-	-moz-transform:scaleX(0);
-	transform:scaleX(0);
+.project-tab .gallery-item .inner-box {
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  transform: scaleX(0);
 }
 
-.project-tab .active-tab .gallery-item .inner-box{
-	-webkit-transform:scaleX(1);
-	-ms-transform:scaleX(1);
-	-o-transform:scaleX(1);
-	-moz-transform:scaleX(1);
-	transform:scaleX(1);
+.project-tab .active-tab .gallery-item .inner-box {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -o-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
-.gallery-item .image-box{
-	position:relative;
-	display:block;	
+.gallery-item .image-box {
+  position: relative;
+  display: block;
 }
 
-.gallery-item .image-box img{
-	position:relative;
-	display:block;
-	width:100%;
+.gallery-item .image-box img {
+  position: relative;
+  display: block;
+  width: 100%;
 }
 
-.gallery-item .overlay-box{
-	position:absolute;
-	left:0px;
-	top:0px;
-	width:100%;
-	height:100%;
-	opacity:0;
-	color:#ffffff;
-	text-align:center;
-	background:rgba(42,42,51,0.70);
-	-webkit-transition:all 700ms ease;
-	-ms-transition:all 700ms ease;
-	-o-transition:all 700ms ease;
-	transition:all 700ms ease;
-	-webkit-transform:translate(-100%,0%);
-	-ms-transform:translate(-100%,0%);
-	-o-transform:translate(-100%,0%);
-	-moz-transform:translate(-100%,0%);
-	transform:translate(-100%,0%);
+.gallery-item .overlay-box {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  color: #ffffff;
+  text-align: center;
+  background: rgba(42, 42, 51, 0.7);
+  -webkit-transition: all 700ms ease;
+  -ms-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+  transition: all 700ms ease;
+  -webkit-transform: translate(-100%, 0%);
+  -ms-transform: translate(-100%, 0%);
+  -o-transform: translate(-100%, 0%);
+  -moz-transform: translate(-100%, 0%);
+  transform: translate(-100%, 0%);
 }
 
-.gallery-item .inner-box:hover .overlay-box{
-	opacity:1;
-	-webkit-transform:translate(0%);
-	-ms-transform:translate(0%);
-	-o-transform:translate(0%);
-	-moz-transform:translate(0%);
-	transform:translate(0%);
+.gallery-item .inner-box:hover .overlay-box {
+  opacity: 1;
+  -webkit-transform: translate(0%);
+  -ms-transform: translate(0%);
+  -o-transform: translate(0%);
+  -moz-transform: translate(0%);
+  transform: translate(0%);
 }
 
-.gallery-item .overlay-inner{
-	position:absolute;
-	left:0px;
-	top:0px;
-	width:100%;
-	height:100%;
-	display:table;
-	vertical-align:middle;
-	padding:10px 0px;
+.gallery-item .overlay-inner {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: table;
+  vertical-align: middle;
+  padding: 10px 0px;
 }
 
-.gallery-item .overlay-inner .content{
-	position:relative;
-	display:table-cell;
-	vertical-align:middle;
+.gallery-item .overlay-inner .content {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-.gallery-item .overlay-inner .image-link{
-	position:relative;
-	font-size:16px;
-	color:#ffffff;
-	width:42px;
-	height:42px;
-	line-height:38px;
-	display:inline-block;
-	border:1px solid #ffffff;
-	transition:all 300ms ease;
-	-webkit-transition:all 300ms ease;
-	-ms-transition:all 300ms ease;
-	-o-transition:all 300ms ease;
+.gallery-item .overlay-inner .image-link {
+  position: relative;
+  font-size: 16px;
+  color: #ffffff;
+  width: 42px;
+  height: 42px;
+  line-height: 38px;
+  display: inline-block;
+  border: 1px solid #ffffff;
+  transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
 }
 
-.gallery-item .overlay-inner .image-link.lightbox-image{
-	position:relative;
-	left:-2px;
+.gallery-item .overlay-inner .image-link.lightbox-image {
+  position: relative;
+  left: -2px;
 }
 
-.gallery-item .overlay-inner .image-link{
-	position:relative;
-	left:2px;
+.gallery-item .overlay-inner .image-link {
+  position: relative;
+  left: 2px;
 }
 
-.gallery-item .overlay-inner .image-link .icon{
-	position:relative;
+.gallery-item .overlay-inner .image-link .icon {
+  position: relative;
 }
 
-.gallery-item .overlay-inner .image-link:hover{
-	color:#666666;
-	background-color:rgba(255,255,255,1);
+.gallery-item .overlay-inner .image-link:hover {
+  color: #666666;
+  background-color: rgba(255, 255, 255, 1);
 }
 
-.gallery-item .inner-box h3{
-	position:relative;
-	font-size:18px;
-	font-weight:400;
-	margin-top:10px;
+.gallery-item .inner-box h3 {
+  position: relative;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
 }
 
-.gallery-item .inner-box h3 a{
-	position:relative;
-	color:#ffffff;
-	transition:all 0.3s ease;
-	-moz-transition:all 0.3s ease;
-	-webkit-transition:all 0.3s ease;
-	-ms-transition:all 0.3s ease;
-	-o-transition:all 0.3s ease;
+.gallery-item .inner-box h3 a {
+  position: relative;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
-.gallery-item .inner-box h3 a:hover{
-	color:#e31528;
+.gallery-item .inner-box h3 a:hover {
+  color: #e31528;
 }
 
-.gallery-item .inner-box .category{
-	position:relative;
-	color:#e31528;
-	font-size:16px;
-	font-weight:400;
+.gallery-item .inner-box .category {
+  position: relative;
+  color: #e31528;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 /*Default Section*/
 
-.default-section{
-	position:relative;
-	padding:75px 0px 35px;
+.default-section {
+  position: relative;
+  padding: 75px 0px 35px;
 }
 
-.default-section .about-column{
-	position:relative;
-	margin-bottom:40px;
+.default-section .about-column {
+  position: relative;
+  margin-bottom: 40px;
 }
 
 .default-section .about-column .sec-title,
-.default-section .form-column .sec-title{
-	margin-bottom:60px;
+.default-section .form-column .sec-title {
+  margin-bottom: 60px;
 }
 
-.default-section .about-column .inner-column{
-	position:relative;
+.default-section .about-column .inner-column {
+  position: relative;
 }
 
-.default-section .about-column .inner-column .image{
-	position:relative;
-	margin-bottom:30px;
+.default-section .about-column .inner-column .image {
+  position: relative;
+  margin-bottom: 30px;
 }
 
-.default-section .about-column .inner-column .image img{
-	position:relative;
-	width:100%;
-	display:block;
+.default-section .about-column .inner-column .image img {
+  position: relative;
+  width: 100%;
+  display: block;
 }
 
-.default-section .about-column .inner-column .about-info{
-	position:relative;
-	border:1px solid #f3f3f3;
+.default-section .about-column .inner-column .about-info {
+  position: relative;
+  border: 1px solid #f3f3f3;
 }
 
-.default-section .about-column .inner-column .about-info li{
-	position:relative;
-	width:33.333%;
-	color:#e31528;
-	font-size:16px;
-	font-weight:700;
-	float:left;
-	line-height:1.4em;
-	padding:15px 35px 15px 55px;
-	border-right:1px solid #f3f3f3;
+.default-section .about-column .inner-column .about-info li {
+  position: relative;
+  width: 33.333%;
+  color: #e31528;
+  font-size: 16px;
+  font-weight: 700;
+  float: left;
+  line-height: 1.4em;
+  padding: 15px 35px 15px 55px;
+  border-right: 1px solid #f3f3f3;
 }
 
-.default-section .about-column .inner-column .about-info li .icon{
-	position:absolute;
-	left:15px;
-	color:#e31528;
-	font-size:30px;
-	line-height:1em;
-	margin-top:5px;
-	font-weight:400;
+.default-section .about-column .inner-column .about-info li .icon {
+  position: absolute;
+  left: 15px;
+  color: #e31528;
+  font-size: 30px;
+  line-height: 1em;
+  margin-top: 5px;
+  font-weight: 400;
 }
 
-.default-section .about-column .inner-column .about-info li:last-child{
-	border:0px;
+.default-section .about-column .inner-column .about-info li:last-child {
+  border: 0px;
 }
 
-.default-section .about-column .inner-column .text{
-	position:relative;
-	color:#848484;
-	font-size:16px;
-	line-height:1.6em;
-	margin-top:20px;
+.default-section .about-column .inner-column .text {
+  position: relative;
+  color: #848484;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin-top: 20px;
 }
 
-.default-section .form-column{
-	position:relative;
+.default-section .form-column {
+  position: relative;
 }
 
-.default-section .form-column .inner-column{
-	position:relative;
-	padding:40px 40px 20px;
-	border:1px solid #eeeeee;
+.default-section .form-column .inner-column {
+  position: relative;
+  padding: 40px 40px 20px;
+  border: 1px solid #eeeeee;
 }
 
 /*Default Form*/
 
-.default-form .form-group{
-    margin-bottom: 20px;
+.default-form .form-group {
+  margin-bottom: 20px;
 }
 
 .default-form input[type="text"],
 .default-form input[type="email"],
 .default-form input[type="password"],
 .default-form select,
-.default-form textarea{
-	display:block;
-	width:100%;
-	height:50px;
-	font-size:16px;
-	color:#848484;
-	line-height:26px;
-	padding:12px 15px;
-	font-weight:400;
-	background:#ffffff;
-	border:1px solid #ececec;
-	transition:all 500ms ease;
-	-webkit-transition:all 500ms ease;
-	-ms-transition:all 500ms ease;
-	-o-transition:all 500ms ease;	
+.default-form textarea {
+  display: block;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  color: #848484;
+  line-height: 26px;
+  padding: 12px 15px;
+  font-weight: 400;
+  background: #ffffff;
+  border: 1px solid #ececec;
+  transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
 }
 
 .default-form input:focus,
 .default-form select:focus,
-.default-form textarea:focus{
-	border-color:#e31528;
+.default-form textarea:focus {
+  border-color: #e31528;
 }
 
-.default-form textarea{
-	height:150px;
-	resize:none;
-	padding:12px 15px;	
+.default-form textarea {
+  height: 150px;
+  resize: none;
+  padding: 12px 15px;
 }
 
-.default-form .form-group .text{
-	position:relative;
-	color:#848484;
-	font-size:16px;
-	line-height:1.6em;
+.default-form .form-group .text {
+  position: relative;
+  color: #848484;
+  font-size: 16px;
+  line-height: 1.6em;
 }
 
 /*Default Form / Style Two*/
 
-.default-form.style-two .form-group{
-	margin-bottom:30px;
+.default-form.style-two .form-group {
+  margin-bottom: 30px;
 }
 
 .default-form.style-two input[type="text"],
 .default-form.style-two input[type="email"],
 .default-form.style-two input[type="text"],
 .default-form.style-two select,
-.default-form.style-two textarea{
-	background:none;
-	border-color:rgba(255,255,255,0.10);
-	color: #ffffff;
+.default-form.style-two textarea {
+  background: none;
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
 }
 
-.default-form.style-two textarea{
-	height:210px;
-	background:none;
+.default-form.style-two textarea {
+  height: 210px;
+  background: none;
 }
 
-.default-form.style-two .form-group .ui-selectmenu-button.ui-button{
-	border-color:rgba(255,255,255,0.10);
-	color: #ffffff;
+.default-form.style-two .form-group .ui-selectmenu-button.ui-button {
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
 }
 
 .default-form.style-two input::-webkit-input-placeholder,
-.default-form.style-two textarea::-webkit-input-placeholder{
-	color: #ffffff;
+.default-form.style-two textarea::-webkit-input-placeholder {
+  color: #ffffff;
 }
 
-.default-form.style-two .form-group button{
-	width:100%;
+.default-form.style-two .form-group button {
+  width: 100%;
 }
 
-.default-form.style-three .form-group{
-	margin-bottom:30px;
+.default-form.style-three .form-group {
+  margin-bottom: 30px;
 }
 
-.default-form.style-three .form-group textarea{
-	height:130px;
+.default-form.style-three .form-group textarea {
+  height: 130px;
 }
 
-.default-form.style-three .form-group button{
-	margin-top:10px;
+.default-form.style-three .form-group button {
+  margin-top: 10px;
 }
 
 /*Testimonial Section*/
 
-.testimonial-section{
-	position:relative;
-	padding:0px 0px 80px;
+.testimonial-section {
+  position: relative;
+  padding: 0px 0px 80px;
 }
 
-.testimonial-section .owl-nav{
-	display:none;
+.testimonial-section .owl-nav {
+  display: none;
 }
 
-.testimonial-section .owl-dots{
-	position:relative;
-	text-align:center;
+.testimonial-section .owl-dots {
+  position: relative;
+  text-align: center;
 }
 
-.testimonial-section .owl-dots .owl-dot{
-	position:relative;
-	display:inline-block;
-	margin:0px 10px;	
+.testimonial-section .owl-dots .owl-dot {
+  position: relative;
+  display: inline-block;
+  margin: 0px 10px;
 }
 
-.testimonial-section .owl-dots .owl-dot span{
-	position:relative;
-	display:block;
-	width:10px;
-	height:10px;
-	border-radius:50%;
-	border:2px solid #efefef;
-	transition:all 0.3s ease;
-	-moz-transition:all 0.3s ease;
-	-webkit-transition:all 0.3s ease;
-	-ms-transition:all 0.3s ease;
-	-o-transition:all 0.3s ease;
+.testimonial-section .owl-dots .owl-dot span {
+  position: relative;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #efefef;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 
 .testimonial-section .owl-dots .owl-dot.active span,
-.testimonial-section .owl-dots .owl-dot:hover span{
-	background:#e31528;
-	border-color:#e31528;
+.testimonial-section .owl-dots .owl-dot:hover span {
+  background: #e31528;
+  border-color: #e31528;
 }
 
 /*Testimonial Block*/
 
-.testimonial-block{
-	position:relative;
-	margin-bottom:40px;
+.testimonial-block {
+  position: relative;
+  margin-bottom: 40px;
 }
 
-.testimonial-block .inner-box{
-	position:relative;
-	padding:40px 40px;
-	border:1px solid #eeeeee;
+.testimonial-block .inner-box {
+  position: relative;
+  padding: 40px 40px;
+  border: 1px solid #eeeeee;
 }
 
-.testimonial-block .inner-box .content{
-	position:relative;
-	padding-left:100px;
+.testimonial-block .inner-box .content {
+  position: relative;
+  padding-left: 100px;
 }
 
-.testimonial-block .inner-box .content .image{
-	position:absolute;
-	left:0px;
-	top:0px;
-	width:80px;
-	height:80px;
+.testimonial-block .inner-box .content .image {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 80px;
+  height: 80px;
 }
 
-.testimonial-block .inner-box .content .rating{
-	position:relative;
-	border-radius:50px;
-	padding:2px 15px;
-	display:inline-block;
-	margin-bottom:5px;
-	border:2px solid #eeeeee;
+.testimonial-block .inner-box .content .rating {
+  position: relative;
+  border-radius: 50px;
+  padding: 2px 15px;
+  display: inline-block;
+  margin-bottom: 5px;
+  border: 2px solid #eeeeee;
 }
 
-.testimonial-block .inner-box .content .rating .fa{
-	color:#ebce09;
-	margin:0px 2px;
+.testimonial-block .inner-box .content .rating .fa {
+  color: #ebce09;
+  margin: 0px 2px;
 }
 
-.testimonial-block .inner-box .content h3{
-	position:relative;
-	color:#222222;
-	font-size:18px;
-	font-weight:400;
-	font-family: 'Montserrat', sans-serif;
+.testimonial-block .inner-box .content h3 {
+  position: relative;
+  color: #222222;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
 }
 
-.testimonial-block .inner-box .content .designation{
-	position:relative;
-	color:#e31528;
-	font-size:16px;
+.testimonial-block .inner-box .content .designation {
+  position: relative;
+  color: #e31528;
+  font-size: 16px;
 }
 
-.testimonial-block .inner-box .content .text{
-	position:relative;
-	font-size:16px;
-	color:#96969f;
-	line-height:1.6em;
-	margin-top:5px;
+.testimonial-block .inner-box .content .text {
+  position: relative;
+  font-size: 16px;
+  color: #96969f;
+  line-height: 1.6em;
+  margin-top: 5px;
 }
 
 .gallery-item-six .inner-box .overlay-box .content h3 a {
@@ -2253,7 +3917,7 @@ img {
 
 .gallery-item-six .inner-box .overlay-box:before {
   position: absolute;
-  content: '';
+  content: "";
   border: 1px solid #747474;
   left: 10px;
   top: 10px;
@@ -2276,7 +3940,6 @@ img {
 
 /*============ single gallery ============*/
 
-
 .single-gallery {
   position: relative;
   padding: 80px 0 50px;
@@ -2286,7 +3949,6 @@ img {
   position: relative;
   padding-bottom: 30px;
 }
-
 
 .single-gallery .share-project {
   padding-left: 140px;
@@ -2323,7 +3985,7 @@ img {
 
 .single-gallery .share-project .social-share ul li a:hover {
   color: #ff5722;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .single-gallery .project-info-list {
@@ -2353,7 +4015,8 @@ img {
   color: #e31528;
 }
 
-.single-gallery .project-info-list li .text-holder {}
+.single-gallery .project-info-list li .text-holder {
+}
 
 .single-gallery .project-info-list li .text-holder h5 {
   color: #252525;
@@ -2390,7 +4053,7 @@ img {
 
 .project-quote:before {
   position: absolute;
-  content: '';
+  content: "";
   height: 120px;
   width: 1px;
   background: #e31528;
@@ -2454,7 +4117,7 @@ img {
 
 .team-member .inner-box .social-icon-one:before {
   position: absolute;
-  content: '';
+  content: "";
   width: 40px;
   height: 40px;
   top: -3px;
@@ -2466,7 +4129,7 @@ img {
 
 .team-member .inner-box .social-icon-one:after {
   position: absolute;
-  content: '';
+  content: "";
   width: 40px;
   height: 40px;
   top: -3px;
@@ -2493,7 +4156,7 @@ img {
 
 .team-member .inner-box .social-icon-one li a:before {
   position: absolute;
-  content: '';
+  content: "";
   background: #e0edf4;
   height: 10px;
   width: 1px;
@@ -2590,7 +4253,7 @@ img {
 
 .team-member .inner-box .lower-content .mail:before {
   position: absolute;
-  content: '';
+  content: "";
   width: 70px;
   height: 1px;
   background: #f4f4f4;
@@ -2649,48 +4312,48 @@ img {
 
 ***/
 
-.call-to-action-section{
-	position:relative;
-	padding:22px 0px;
-	background-attachment:fixed;
-	background-position:left bottom;
-	background-repeat:no-repeat;
-	background-size:cover;
+.call-to-action-section {
+  position: relative;
+  padding: 22px 0px;
+  background-attachment: fixed;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.call-to-action-section:before{
-	position:absolute;
-	content:'';
-	left:0px;
-	top:0px;
-	width:100%;
-	height:100%;
-	display:block;
-	background-color: rgb(157 24 24 / 90%);
+.call-to-action-section:before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgb(157 24 24 / 90%);
 }
 
-.call-to-action-section.style-two:before{
-	background-color: rgba(253, 184, 33, 0.9);
+.call-to-action-section.style-two:before {
+  background-color: rgba(253, 184, 33, 0.9);
 }
 
 .call-to-action-section .text {
-	position:relative;
-	color:#ffffff;
-	font-size:20px;
-	font-weight:400;
-	margin-top:15px;
+  position: relative;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 15px;
 }
 
-.call-to-action-section .btn-column{
-	position:relative;
-	text-align:right;
+.call-to-action-section .btn-column {
+  position: relative;
+  text-align: right;
 }
 
 .call-to-action-section .btn-column .theme-btn:hover,
-.call-to-action-section-two .btn-column .theme-btn:hover{
-	color:#e31528;
-	background-color:#ffffff;
-	border-color:#ffffff;
+.call-to-action-section-two .btn-column .theme-btn:hover {
+  color: #e31528;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .call-to-action-section-three {
@@ -2704,7 +4367,7 @@ img {
 
 .call-to-action-section-three:before {
   position: absolute;
-  content: '';
+  content: "";
   left: 0px;
   top: 0px;
   width: 100%;
@@ -2716,7 +4379,7 @@ img {
   position: relative;
   padding: 35px 0px;
   text-align: center;
-  border: 2px solid rgba(255, 255, 255, 0.10);
+  border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .call-to-action-section-three .inner-box .text {
@@ -2725,7 +4388,7 @@ img {
   font-weight: 400;
   color: #ffffff;
   line-height: 1.4em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .testimonial-block-three {
@@ -2761,7 +4424,7 @@ img {
 
 .testimonial-block-three .inner-box .upper-box .image:before {
   position: absolute;
-  content: '';
+  content: "";
   left: -5px;
   top: -5px;
   right: -5px;
@@ -2782,7 +4445,6 @@ img {
   z-index: -9;
   color: #dedede;
   font-size: 30px;
-
 }
 
 .testimonial-block-three .inner-box .upper-box h3 {
@@ -2811,7 +4473,7 @@ img {
 
 .testimonial-block-three .inner-box .upper-box .text:before {
   position: absolute;
-  content: '';
+  content: "";
   height: 25px;
   width: 25px;
   background: #fff;
@@ -2873,7 +4535,7 @@ img {
 
 .quote-section:before {
   position: absolute;
-  content: '';
+  content: "";
   left: 0px;
   top: 0px;
   width: 100%;
@@ -2885,7 +4547,7 @@ img {
 .quote-section .quote-inner {
   position: relative;
   padding: 40px 40px;
-  background-color: rgba(255, 255, 255, 0.10);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .quote-section .quote-inner .form-column {
@@ -2899,7 +4561,7 @@ img {
 .quote-section .quote-inner .contact-column .column-inner {
   position: relative;
   padding: 30px 30px;
-  border: 1px solid rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .quote-section .quote-inner .contact-column .column-inner h2 {
@@ -3059,56 +4721,55 @@ img {
   color: #e31528;
 }
 
-.sec-title{
-	position:relative;
-	margin-bottom:55px;
+.sec-title {
+  position: relative;
+  margin-bottom: 55px;
 }
 
-.sec-title.small{
-	margin-bottom: 40px;
+.sec-title.small {
+  margin-bottom: 40px;
 }
 
-.sec-title h2{
-	font-size:30px;
-	color:#222222;
-	font-weight:600;
-	line-height:1.1em;
-	padding-bottom:20px;
-	border-bottom:1px solid #f6f6f6;
+.sec-title h2 {
+  font-size: 30px;
+  color: #222222;
+  font-weight: 600;
+  line-height: 1.1em;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f6f6f6;
 }
 
-.sec-title h2:before{
-	position:absolute;
-	content:'';
-	left:0px;
-	bottom:-1px;
-	width:60px;
-	height:1px;
-	background-color:#e31528;
+.sec-title h2:before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  bottom: -1px;
+  width: 60px;
+  height: 1px;
+  background-color: #e31528;
 }
 
-.sec-title.light h2{
-	color:#ffffff;
-	border-color:rgba(255,255,255,0.10);
+.sec-title.light h2 {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.1);
 }
 
-.sec-title.grey-border h2{
-	border-color:rgba(229,229,229,0.60);
+.sec-title.grey-border h2 {
+  border-color: rgba(229, 229, 229, 0.6);
 }
 
-.sec-title.centered{
-	text-align:center;
+.sec-title.centered {
+  text-align: center;
 }
 
-.sec-title.centered h2:before{
-	left:50%;
-	margin-left:-30px;
+.sec-title.centered h2:before {
+  left: 50%;
+  margin-left: -30px;
 }
 
-.sec-title.small h2{
-	font-size:24px;
+.sec-title.small h2 {
+  font-size: 24px;
 }
-
 
 /*subscribe form style three*/
 
@@ -3117,7 +4778,8 @@ img {
 }
 
 @media (min-width: 992px) {
-  .subscribe-form-three {}
+  .subscribe-form-three {
+  }
 }
 
 .subscribe-form-three h4 {
@@ -3156,8 +4818,6 @@ img {
 .subscribe-form-three p {
   color: #e31528;
 }
-
-
 
 /*** 
 
@@ -3198,14 +4858,14 @@ img {
 
 .featured-block .inner-box .image:after {
   position: absolute;
-  content: '';
+  content: "";
   left: 0px;
   top: 0px;
   width: 100%;
   height: 100%;
   display: block;
   opacity: 0;
-  background-color: rgba(0, 0, 0, 0.80);
+  background-color: rgba(0, 0, 0, 0.8);
   transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -3264,16 +4924,14 @@ img {
 .featured-block .inner-box .lower-content .outer-box {
   position: relative;
   top: 39px;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .featured-block .inner-box:hover .lower-content .outer-box {
   position: relative;
   top: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
-
-
 
 .featured-block .inner-box .lower-content h3 {
   position: relative;
@@ -3526,9 +5184,6 @@ img {
   font-size: 16px;
 }
 
-
-
-
 /*** 
 
 ====================================================================
@@ -3586,99 +5241,99 @@ img {
   font-weight: 400;
 }
 
-.clients-section{
-	position:relative;
-	padding:80px 0px 80px;
-	background-color: #042038;
+.clients-section {
+  position: relative;
+  padding: 80px 0px 80px;
+  background-color: #042038;
 }
 
 .clients-section .owl-nav,
-.clients-section .owl-dots{
-	display:none;
+.clients-section .owl-dots {
+  display: none;
 }
 
-.clients-section .image-box{
-	text-align:center;
-	border:1px solid rgba(255,255,255,0.10);
-	transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
+.clients-section .image-box {
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
 }
 
-.clients-section .image-box img{
-	position: relative;
-	padding:8px 20px;
-    width: auto;
-    max-width: 100%;
-	display: inline-block;
-    transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
+.clients-section .image-box img {
+  position: relative;
+  padding: 8px 20px;
+  width: auto;
+  max-width: 100%;
+  display: inline-block;
+  transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
 }
 
-.clients-section .image-box:hover{
-	border-color: #e31528;
+.clients-section .image-box:hover {
+  border-color: #e31528;
 }
-.clients-section-two{
-	position:relative;
-	padding:75px 0px 80px;
+.clients-section-two {
+  position: relative;
+  padding: 75px 0px 80px;
 }
 
-.clients-section-two h2{
-	position:relative;
-	color:#222222;
-	font-size:24px;
-	font-weight:400;
-	text-align:center;
-	margin-bottom:40px;
+.clients-section-two h2 {
+  position: relative;
+  color: #222222;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .clients-section-two .owl-nav,
-.clients-section-two .owl-dots{
-	display:none;
+.clients-section-two .owl-dots {
+  display: none;
 }
 
-.clients-section-two .image-box{
-	text-align:center;
-	border:1px solid #eeeeee;
-	transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
+.clients-section-two .image-box {
+  text-align: center;
+  border: 1px solid #eeeeee;
+  transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
 }
 
-.clients-section-two .image-box:after{
-	position:absolute;
-	content:'';
-	left:4px;
-	right:4px;
-	top:4px;
-	bottom:4px;
-	border:1px solid #eeeeee;
-	transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
+.clients-section-two .image-box:after {
+  position: absolute;
+  content: "";
+  left: 4px;
+  right: 4px;
+  top: 4px;
+  bottom: 4px;
+  border: 1px solid #eeeeee;
+  transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
 }
 
-.clients-section-two .image-box img{
-	position: relative;
-	padding:8px 20px;
-    width: auto;
-    max-width: 100%;
-	z-index:1;
-	display: inline-block;
-    transition: all 300ms ease;
-    -webkit-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
+.clients-section-two .image-box img {
+  position: relative;
+  padding: 8px 20px;
+  width: auto;
+  max-width: 100%;
+  z-index: 1;
+  display: inline-block;
+  transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
 }
 
 .clients-section-two .image-box:hover,
-.clients-section-two .image-box:hover:after{
-	border-color:#e31528;
+.clients-section-two .image-box:hover:after {
+  border-color: #e31528;
 }
 
 /*** 
@@ -3689,51 +5344,51 @@ img {
 
 ***/
 
-.call-to-action-section-two{
-	position:relative;
+.call-to-action-section-two {
+  position: relative;
 }
 
-.call-to-action-section-two .inner-box{
-	position:relative;
-	padding:22px 30px;
-	margin-top:-50px;
-	z-index:10;
-	background-attachment:fixed;
-	background-position:left bottom;
-	background-repeat:no-repeat;
-	background-size:cover;
+.call-to-action-section-two .inner-box {
+  position: relative;
+  padding: 22px 30px;
+  margin-top: -50px;
+  z-index: 10;
+  background-attachment: fixed;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.call-to-action-section-two .inner-box:before{
-	position:absolute;
-	content:'';
-	left:0px;
-	top:0px;
-	width:100%;
-	height:100%;
-	display:block;
-	background-color: rgb(24, 78, 157);
+.call-to-action-section-two .inner-box:before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgb(24, 78, 157);
 }
 
-.call-to-action-section-two .text{
-	position:relative;
-	color:#ffffff;
-	font-size:20px;
-	font-weight:400;
-	margin-top:13px;
+.call-to-action-section-two .text {
+  position: relative;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 13px;
 }
 
-.call-to-action-section-two .btn-column{
-	position:relative;
-	text-align:right;
+.call-to-action-section-two .btn-column {
+  position: relative;
+  text-align: right;
 }
 
-.clients-section.style-two .image-box{
-	border:1px solid #e5e5e5;
+.clients-section.style-two .image-box {
+  border: 1px solid #e5e5e5;
 }
 
-.clients-section.style-two .image-box:hover{
-	border-color:#e31528;
+.clients-section.style-two .image-box:hover {
+  border-color: #e31528;
 }
 .testimonial-section-three .client-thumb-outer {
   position: relative;
@@ -3750,11 +5405,15 @@ img {
   opacity: 1;
 }
 
-.testimonial-section-three .client-thumb-outer .owl-item.active .thumb-item .thumb-box {
-  -o-transform: scale(1.0, 1.0);
-  -ms-transform: scale(1.0, 1.0);
-  -webkit-transform: scale(1.0, 1.0);
-  transform: scale(1.0, 1.0);
+.testimonial-section-three
+  .client-thumb-outer
+  .owl-item.active
+  .thumb-item
+  .thumb-box {
+  -o-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
 }
 
 .testimonial-section-three .client-thumb-outer .client-thumbs-carousel {
@@ -3764,7 +5423,10 @@ img {
   text-align: center;
 }
 
-.testimonial-section-three .client-thumb-outer .client-thumbs-carousel .owl-stage-outer {
+.testimonial-section-three
+  .client-thumb-outer
+  .client-thumbs-carousel
+  .owl-stage-outer {
   overflow: visible;
 }
 
@@ -3777,16 +5439,24 @@ img {
   margin-right: -30px;
 }
 
-.testimonial-section-three .client-thumbs-carousel .thumb-item .thumb-content h3 {
+.testimonial-section-three
+  .client-thumbs-carousel
+  .thumb-item
+  .thumb-content
+  h3 {
   font-size: 18px;
   font-weight: 500;
   color: #222222;
   letter-spacing: 1px;
   text-transform: capitalize;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.testimonial-section-three .client-thumbs-carousel .thumb-item .thumb-content .designation {
+.testimonial-section-three
+  .client-thumbs-carousel
+  .thumb-item
+  .thumb-content
+  .designation {
   color: #e31528;
   font-size: 16px;
   font-weight: 400;
@@ -3806,7 +5476,11 @@ img {
   transform: scale(0.7, 0.7);
 }
 
-.testimonial-section-three .client-thumb-outer .client-thumbs-carousel .thumb-item img {
+.testimonial-section-three
+  .client-thumb-outer
+  .client-thumbs-carousel
+  .thumb-item
+  img {
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -3885,13 +5559,13 @@ img {
 
 .full-width-section .outer-box .content-column:before {
   position: absolute;
-  content: '';
+  content: "";
   left: 0px;
   top: 0px;
   width: 100%;
   height: 100%;
   display: block;
-  background-color: rgba(0, 0, 0, 0.90);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .full-width-section .outer-box .content-column .content {
@@ -3944,22 +5618,22 @@ img {
 
 .fact-counter:before {
   position: absolute;
-  content: '';
+  content: "";
   left: 45%;
   top: 0px;
   height: 100%;
   width: 1px;
-  background-color: rgba(255, 255, 255, 0.20);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .fact-counter:after {
   position: absolute;
-  content: '';
+  content: "";
   top: 50%;
   left: 0px;
   height: 1px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.20);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .fact-counter .column {
@@ -4010,7 +5684,7 @@ img {
   color: #ffffff;
   font-size: 36px;
   display: inline-block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .fact-counter .count-outer .count-text {
@@ -4018,7 +5692,7 @@ img {
   color: #ffffff;
   font-size: 36px;
   display: inline-block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .fact-counter .column .counter-title {
@@ -4063,7 +5737,7 @@ img {
   position: relative;
   font-size: 18px;
   line-height: 1.6em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .news-block-four .inner-box h3 a {
@@ -4095,7 +5769,7 @@ img {
 
 .news-block-four .inner-box .post-meta li .icon {
   position: absolute;
-  content: '';
+  content: "";
   left: 0px;
   top: 0px;
   color: #e31528;
@@ -4163,7 +5837,7 @@ img {
   font-weight: 400;
   line-height: 24px;
   text-transform: capitalize;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .page-info .bread-crumb li:last-child {
@@ -4171,8 +5845,8 @@ img {
 }
 
 .page-info .bread-crumb li:after {
-  content: '\f0da';
-  font-family: 'FontAwesome';
+  content: "\f0da";
+  font-family: "FontAwesome";
   position: absolute;
   right: -21px;
   width: 10px;
@@ -4264,7 +5938,7 @@ img {
 
 .featured-section-two:before {
   position: absolute;
-  content: '';
+  content: "";
   left: 0px;
   top: 0px;
   width: 100%;
@@ -4292,7 +5966,7 @@ img {
   font-size: 60px;
   line-height: 1em;
   margin-bottom: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .featured-block-two .inner-box h3 {
@@ -4353,7 +6027,7 @@ img {
   color: #ffffff;
   font-weight: 500;
   text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .error-section .inner-section .text {
@@ -4479,7 +6153,7 @@ img {
   line-height: 36px;
   text-transform: uppercase;
   border: 2px solid #eeeeee;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .styled-pagination li a:hover,
@@ -4565,20 +6239,18 @@ img {
   line-height: 1.2em;
   padding-bottom: 15px;
   text-transform: capitalize;
-  border-bottom: 1px solid rgba(238, 238, 238, 0.50)
+  border-bottom: 1px solid rgba(238, 238, 238, 0.5);
 }
 
 .sidebar-title h2:after {
   position: absolute;
-  content: '';
+  content: "";
   left: 0px;
   bottom: -1px;
   width: 45px;
   height: 1px;
   background-color: #e31528;
 }
-
-
 
 /*Blog Category*/
 
@@ -4610,30 +6282,28 @@ img {
   -webkit-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .blog-cat li a:before {
   position: absolute;
-  content: '\f114';
+  content: "\f114";
   left: 0px;
   top: 0px;
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
 }
 
 .blog-cat li a:after {
   position: absolute;
-  content: '\f105';
+  content: "\f105";
   right: 0px;
   top: 0px;
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
 }
 
 .blog-cat li a:hover {
   color: #e31528;
 }
-
-
 
 /*Post Widget*/
 
@@ -4659,7 +6329,7 @@ img {
 }
 
 .sidebar .popular-posts .post:hover .post-thumb img {
-  opacity: 0.70;
+  opacity: 0.7;
 }
 
 .sidebar .popular-posts .post .post-thumb img {
@@ -4681,7 +6351,7 @@ img {
   color: #222222;
   line-height: 1.4em;
   text-transform: capitalize;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .sidebar .popular-posts .post .text a {
@@ -4703,16 +6373,16 @@ img {
   font-size: 16px;
   color: #999999;
   padding-left: 22px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .sidebar .popular-posts .post-info:before {
   position: absolute;
-  content: '\f073';
+  content: "\f073";
   left: 0px;
   top: 0px;
   color: #e31528;
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
 }
 
 /*Popular Tags*/
@@ -4801,7 +6471,7 @@ img {
 
 .news-block-five .inner-box .lower-content .post-meta:after {
   position: absolute;
-  content: '';
+  content: "";
   left: 0px;
   bottom: -1px;
   width: 70px;
@@ -4820,7 +6490,7 @@ img {
 
 .news-block-five .inner-box .lower-content .post-meta li .icon {
   position: absolute;
-  content: '';
+  content: "";
   left: 0px;
   top: 0px;
   color: #e31528;
@@ -4839,7 +6509,7 @@ img {
   color: #e31528;
   font-size: 16px;
   font-weight: 500;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /*Blog Single*/
@@ -4885,7 +6555,7 @@ img {
 
 .blog-single .inner-box .lower-content .post-meta:after {
   position: absolute;
-  content: '';
+  content: "";
   left: 0px;
   bottom: -1px;
   width: 70px;
@@ -4904,7 +6574,7 @@ img {
 
 .blog-single .inner-box .lower-content .post-meta li .icon {
   position: absolute;
-  content: '';
+  content: "";
   left: 0px;
   top: 0px;
   color: #e31528;
@@ -4954,7 +6624,7 @@ img {
   color: #222222;
   font-size: 18px;
   font-weight: 400;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -4969,7 +6639,7 @@ img {
 
 .post-share-options .new-posts a.prev:after {
   position: absolute;
-  content: '';
+  content: "";
   right: 0px;
   top: 0px;
   width: 1px;
@@ -5110,7 +6780,6 @@ li {
   margin: 0px;
 }
 
-
 .author-box h2 {
   position: relative;
   color: #222222;
@@ -5118,12 +6787,12 @@ li {
   font-weight: 600;
   margin-bottom: 40px;
   padding-bottom: 12px;
-  border-bottom: 1px solid rgba(238, 238, 238, 0.50);
+  border-bottom: 1px solid rgba(238, 238, 238, 0.5);
 }
 
 .author-box h2:after {
   position: absolute;
-  content: '';
+  content: "";
   left: 0px;
   bottom: -1px;
   width: 70px;
@@ -5192,12 +6861,12 @@ li {
   font-weight: 600;
   padding-bottom: 12px;
   text-transform: capitalize;
-  border-bottom: 1px solid rgba(238, 238, 238, 0.50)
+  border-bottom: 1px solid rgba(238, 238, 238, 0.5);
 }
 
 .sidebar-page-container .group-title h2:after {
   position: absolute;
-  content: '';
+  content: "";
   left: 0px;
   bottom: -1px;
   width: 70px;
@@ -5276,7 +6945,7 @@ li {
   font-size: 18px;
   font-weight: 400;
   display: inline-block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .sidebar-page-container .comments-area .comment-box .text {
@@ -5581,7 +7250,7 @@ li {
   display: block;
   margin-bottom: 9px;
   background-color: #f7f7f7;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .sidebar .view-all .icon {
@@ -5618,12 +7287,12 @@ li {
   -ms-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .sidebar .sidebar-category .list li a:before {
   content: "\f0da";
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   font-size: 14px;
   right: 18px;
   color: #f7f7f7;
@@ -5659,7 +7328,7 @@ li {
   -ms-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .sidebar-brochure .brochure .icon {
@@ -5732,7 +7401,7 @@ li {
   font-weight: 400;
   margin-bottom: 15px;
   padding-bottom: 10px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   border-bottom: 1px solid #eeeeee;
 }
 
@@ -5841,12 +7510,12 @@ li {
   line-height: 1.2em;
   padding-bottom: 15px;
   margin-bottom: 32px;
-  border-bottom: 1px solid rgba(238, 238, 238, 0.50);
+  border-bottom: 1px solid rgba(238, 238, 238, 0.5);
 }
 
 .services-single .inner-box .lower-content h2:before {
   position: absolute;
-  content: '';
+  content: "";
   left: 0px;
   bottom: -1px;
   width: 70px;
@@ -7782,5 +9451,4 @@ img {
 .ui-menu-item:hover {
   background-color: #17519d;
 }
-
 </style>
